@@ -1,7 +1,7 @@
 # EvilMails by DUDIX CTI
 
 <p align="center">
-<img src="./files/dudix-cti.webp"/>
+<img src="./Img/EvilMails.webp" width="300"/>
 <p align="center">
 
 ![Powered by DudixCTI](https://img.shields.io/badge/powered%20by-DudixCTI-0052cc?style=for-the-badge&logo=apachekafka)
@@ -13,12 +13,10 @@
 
 ---
 
-** Liste des adresses e-mail identifiées comme malveillantes (IoC) extraites de mon instance OpenCTI pour la communauté (usage défensif : blocage, détection, recherche).
+**Liste d'adresses e-mail identifiées comme malveillantes (IoC) extraites de mon instance OpenCTI pour la communauté (usage défensif : blocage, détection, recherche).**
 
 ## Contenu
-- `data/emails.csv` — CSV simple : `email,first_seen,last_seen,source,confidence,comment`
-- `data/emails.json` — JSON lines ou tableau
-- `data/emails.stix.json` — export STIX2 compatible OpenCTI
+- `emails.csv` — CSV simple : `type,email,opencti_score`
 
 ## Usage
 - Usage défensif uniquement (threat hunting, blocage, corrélation).
