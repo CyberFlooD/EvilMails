@@ -16,7 +16,7 @@
 **Liste d'adresses e-mail identifiées comme malveillantes (IoC) extraites de mon instance OpenCTI pour la communauté (usage défensif : blocage, détection, recherche).**
 
 ## Contenu
-- `emails.csv` — CSV simple : `type,email,opencti_score`
+- `/data/emails.csv` — CSV simple : `type,email,opencti_score`
 
 ## Usage
 - Usage défensif uniquement (threat hunting, blocage, corrélation).
