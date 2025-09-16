@@ -1,4 +1,4 @@
-# EvilMails by DUDIX CTI
+# Evil-Mails by DUDIX CTI
 
 <p align="center">
 <img src="./Img/EvilMails.webp" width="300"/>
